@@ -1,0 +1,72 @@
+html,body{
+    margin:0;
+    font-size:16px;
+    font-family:'Times New Roman', Times, serif;
+    height:100%;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666666;
+}
+.pimg1{
+    background-image:url("vimg1.png");
+    background-size:cover;
+    position:relative;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:100%;
+}
+.pimg1,.pimg2,.pimg3{
+    background-size:cover;
+    position:relative;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.pimg2{
+    background-image:url("vimg2.png");
+    min-height:700px;
+}
+.pimg3{
+    background-image:url("vimg3.png");
+    min-height:600px;
+}
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    font-size:27px;
+    color:black;
+    letter-spacing:8px;
+}
+h2:hover{
+    color:red;
+}
+span:hover{
+    color:red;
+}
+.textbg{
+    background-color:rgba(0,0,0,0.5);
+    color:#ffffff;
+    padding:20px;
+}
+.section{
+    padding:50px 80px;
+    text-align:center;
+}
+.section-light{
+    background-color:#f4f4f4;
+    color:#666666;
+}
+.section-dark{
+    background-color:#282e34;
+    color:#ffffff;
+}
+.section-light:hover{
+    background-color:#282e34;
+    color:#ffffff;
+}
+.section-dark:hover{
+    background-color:#f4f4f4;
+    color:#666666;
+}
+
